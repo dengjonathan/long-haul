@@ -5,11 +5,12 @@
             <ul class="noList">
                 {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
                 <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                    <a href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+                    <a href="{{ link.url | prepend: site.baseurl }}" style="font-weight=700">{{ link.title }}</a>
                 </li>
                 {% endfor %}
                 <li> <a href="https://github.com/dengjonathan" target="_blank">GitHub</a></li>
-                <li> <a href="https://medium.com/@dengjonathan" target="_blank">Medium</a></li>
+                <li> <a href="https://medium.com/@jondeng" target="_blank">Medium</a></li>
+                <li> <a href="https://linkedin.com/in/dengjonathan" target="_blank">LinkedIn</a></li>
             </ul>
         </nav>
     </div>
