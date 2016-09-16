@@ -23,5 +23,5 @@ social:
    github: dengjonathan
    twitter: jondeng
 
-# gems:
-#   - jemoji
+gems:
+  - jemoji
