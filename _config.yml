@@ -16,8 +16,8 @@ navigation:
    url: /index.html
  - title: About
    url: /about
- - title: Contact
-   url: /contact
+ - title: Writing
+   url: /writing
 
 social:
    github: dengjonathan
