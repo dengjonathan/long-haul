@@ -1,25 +1,14 @@
 ---
 layout: default
-title: About Long Haul
+title: About Jon
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with <a href="http://sass-lang.com/">SASS</a> + <a href="http://compass-style.org/">COMPASS</a></li>
-  		<li>Layout with <a href="http://susy.oddbird.net/">SUSY Grid</a></li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
-</div>
+	<h1 class="pageTitle">About</h1>
+  <img src="{{ '/assets/img/profile.jpg' | prepend: site.baseurl }}" style="height: 300px;width: 300px; border-radius: 300px; display: block; margin-left: auto;margin-right: auto;" alt="profile_pic">
+	<p class="intro">Hi! I'm Jon, a full stack software engineer specializing in building things for the web with JavaScript and Python. I bring grit, passion, and personal accountability to projects that address a meaningful need. Currently, I'm leveling up at <a href='http://www.hackreactor.com/'>@HackReactor</a> and contributing when I can to <a href='https://operationcode.org/'>@OperationCode</a>. Formerly <a href='https://twitter.com/USArmy'>@USArmy</a> and <a href='http://hls.harvard.edu/'>@HarvardLaw</a>.  I like React, Node, blogging, writing bash scripts, climbing, and doing long, wandery trail runs.</p>
+
+	<p>While deployed with the U.S. Army, I worked in a division headquarters and my job involved writing the daily Situation Report, the summary of all major events and operations in progress for all of Iraq.  However, as I tried to incorporate data and metrics into my reports, I found that much of it was stored on idiosyncratic spreadsheets and rich text documents that I had to spent much of my time manually parsing. I had the good fortune of running into a contract software engineer on my base who convinced me that programming would be a good way to automate these tedious chores and a <span style="font-style: italic;">fun thing to do</span>. The rest is history.</p>
+
+  <h4>You can find my latest writing <a href="https://medium.com/@JonDeng/">here</a>.</h4>
+
