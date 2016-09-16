@@ -24,7 +24,7 @@ $( document ).ready(function() {
       ' likes nature',
       ' wakes up early and goes to bed late',
       ' orders two lunches',
-      ', frankly, is a little low-brow',
+      ' frankly, is a little low-brow',
       'tries, to varying results, to make friends',
       ' has the legs of a sloth, the will of a wolf',
       ' thinks flat is better than nested',
@@ -42,11 +42,11 @@ $( document ).ready(function() {
       ' is a JavaScript nerd',
       ' is not afraid to go where things are hacky',
       ' is making this 😜 face',
-      ' would rather be 🏊'
+      ' would rather be 🏊',
+      ' doesn\' t think he\' s better b/c he eats no 🍖'
 
     ];
     var index = Math.floor(Math.random() * sayings.length);
-    console.log(sayings[index]);
     $('.pithy-saying').text(sayings[index]);
   }
     $('.pithy-saying').click(genSaying);
