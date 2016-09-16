@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Jon Deng
+description: Jon Deng's Portfolio Site and Blog
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://jon.deng.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,8 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: dengjonathan
+   twitter: jondeng
 
-google_analytics: "UA-58263416-1"
+# gems:
+#   - jemoji
