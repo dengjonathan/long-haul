@@ -17,19 +17,21 @@ $( document ).ready(function() {
   var genSaying = function() {
     var sayings = [
       ' drives a Subie hatchback',
-      '\'s dog has really short legs and a big head',
+      '\'s dog has really short legs',
       ' builds the future',
       ' dreams big dreams',
-      ' can\'t smell things outside a five foot radius',
+      ' can\'t smell things that well',
       ' likes nature',
       ' wakes up early and goes to bed late',
       ' orders two lunches',
       ' frankly, is a little low-brow',
-      'tries, to varying results, to make friends',
-      ' has the legs of a sloth, the will of a wolf',
+      ' has the legs of a sloth',
       ' thinks flat is better than nested',
-      ' tries to minimize side effects and be explicit',
+      ' tries to minimize side effects',
       ' thinks namespaces are a honking good idea',
+      ' is traversing the graph',
+      ' invested in Hooli before it was public',
+      ' wears socks and sandals',
       ' is kind of a brogrammer',
       ' likes reading Raymond Carver',
       ' laughs really awkwardly',
@@ -43,8 +45,7 @@ $( document ).ready(function() {
       ' is not afraid to go where things are hacky',
       ' is making this 😜 face',
       ' would rather be 🏊',
-      ' doesn\' t think he\' s better b/c he eats no 🍖'
-
+      ' ships the code'
     ];
     var index = Math.floor(Math.random() * sayings.length);
     $('.pithy-saying').text(sayings[index]);
