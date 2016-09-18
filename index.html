@@ -2,9 +2,14 @@
 layout: default
 title: Jon's Portfolio
 ---
+
 <div class="home" id="home">
-    <h3>Hi! I'm Jon, a full stack web developer specializing in JavaScript frameworks and Python. I bring grit, passion, and accountability to projects.</h3>
-    <h4>Oops!  Look's like you've caught me unprepared.  This website under construction.</h4>
+{% include intro.html %}
+<div class="container">
+
+
+</div>
+
     <ul class="posts noList">
         {% for post in paginator.posts %}
         <li>
@@ -20,4 +25,5 @@ title: Jon's Portfolio
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> {% endif %} {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a> {% endif %}
     </div>
+
 </div>
