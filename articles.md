@@ -5,6 +5,8 @@ title: Your New Jekyll Site
 
 <div id="articles">
   <h1>Articles</h1>
+  <p style="font-style: italic">I prefer to blog on Medium for its conversation and community.
+  <a href="https://medium.com/@jondeng">Check me out!</a></p>
   <ul class="posts noList">
     {% for post in site.posts %}
       <li>
