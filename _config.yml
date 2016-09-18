@@ -1,7 +1,7 @@
-title: Jon Deng
-description: Jon Deng's Portfolio Site and Blog
+title: Jon Deng Portfolio
+description: Jon Deng's Portfolio
 
-url: http://jon.deng.com
+url: https://jondeng.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -17,11 +17,8 @@ navigation:
  - title: About
    url: /about
  - title: Writing
-   url: /writing
+   url: /articles
 
 social:
    github: dengjonathan
    twitter: jondeng
-
-gems:
-  - jemoji
